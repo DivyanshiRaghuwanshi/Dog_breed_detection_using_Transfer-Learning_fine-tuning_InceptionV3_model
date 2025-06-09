@@ -19,9 +19,7 @@ For training our dog breed detection model, we need a dataset consisting of imag
 The dataset can be loaded using this code:
 
 import kagglehub
-
 path = kagglehub.dataset_download("mohamedchahed/dog-breeds")
-
 print("Path to dataset files:", path)
 
 # Model Development: 
